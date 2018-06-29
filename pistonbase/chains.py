@@ -13,6 +13,13 @@ known_chains = {
         "sbd_symbol": "GBG",
         "vests_symbol": "GESTS",
     },
+    "VIT": {
+        "chain_id": "73f14dd4b7b07a8663be9d84300de0f65ef2ee7e27aae32bbe911c548c08f000",
+        "prefix": "VIT",
+        "steem_symbol": "VIT",
+        "sbd_symbol": "VBD",
+        "vests_symbol": "VESTS",
+    },
     "TEST": {
         "chain_id": "18dcf0a285365fc58b71f18b3d3fec954aa0c141c44e4e5cb4cf777b9eab274e",
         "prefix": "TST",
