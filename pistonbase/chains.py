@@ -20,6 +20,13 @@ known_chains = {
         "sbd_symbol": "VBD",
         "vests_symbol": "VESTS",
     },
+    "WIT": {
+        "chain_id": "1d50f6bcf387a5af6ebac42146ef920aedb5cc61d8f8ed37fb1ac671d722a302",
+        "prefix": "WIT",
+        "steem_symbol": "WIT",
+        "sbd_symbol": "WBD",
+        "vests_symbol": "VESTS",
+    },
     "TEST": {
         "chain_id": "18dcf0a285365fc58b71f18b3d3fec954aa0c141c44e4e5cb4cf777b9eab274e",
         "prefix": "TST",
