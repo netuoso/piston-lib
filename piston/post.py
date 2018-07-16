@@ -187,6 +187,12 @@ class Post(dict):
             r = sorted(r, key=lambda x: x[sort])
         return(r)
 
+    def get_resteemed_by(self):
+        """ Return the accounts that resteemed this post.
+        """
+        post_author, post_permlink = resolveIdentifier(self.identifier)
+        return self.steem.rpc.get_reblogged_by(post_author, post_permlink, api='follow')
+
     def reply(self, body, title="", author="", meta=None):
         """ Reply to the post
 
